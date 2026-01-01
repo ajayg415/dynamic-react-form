@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import Form from './components/Form/Form.jsx';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello, world!</h1>
+    <div className="App dynamic-form-app">
+      <Form />
     </div>
   );
 }
